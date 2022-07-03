@@ -1,0 +1,424 @@
+/* reset code and common code start */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+
+
+}
+html{
+    background-color: #fafafa;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+   /* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'The Nautigal', cursive; */
+
+font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: #fff;
+    width: 120rem;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0.1rem 0.rem 0.rem #c4c4c4,-0.1rem 0rem 0.1rem #c4c4c4;
+}
+
+
+/* reset code and common code end */
+/* header start from here */
+#bars{
+    display: none;
+    margin-top: 2rem;
+    cursor: pointer;
+ }
+.text-style{
+    text-align: justify;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    z-index: 10;
+    
+    position: sticky;
+    top: 0;
+    min-height: 5vh;
+    
+}
+.logo-figure{
+    border: 1px solid white;
+    padding: 1rem;
+
+}
+.logo{
+   font-size: 4rem; 
+}
+nav li{transition: all 0.5s;
+    display: inline-block;
+    margin-right: 2rem;
+}
+nav li:last-child{
+    margin-right: 0;
+}
+nav li:hover{
+    background-color:#194;
+    border-radius: 0.6rem;
+    padding: 5px;
+}
+.nav-link{
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* banner description start from here */
+#blog-banner{
+    display: flex;
+    margin: 5rem;
+    text-align: center;
+   align-items: center; 
+   min-height: 95vh;
+   
+}
+.blog-img{
+    flex-basis: 50%;
+}
+.blog-img img{border: 0.1rem solid;
+    width:55rem;
+    height: 55rem;
+}
+.banner-desc{
+    font-size: 2rem;
+    flex-basis: 50%;
+    margin-right: 1rem;
+}
+.banner-desc h2{
+    background-color: black;
+    color: white;
+    padding:1rem 0;
+    width: 33rem;
+}
+
+/* banner description end from here */
+/* about me section start from here */
+
+#about-me{
+   display: flex; 
+  flex-direction: column;
+   background-color: aqua;
+   height: 95vh;
+   text-align: center;
+   justify-content: space-evenly;
+   align-items: center;
+  height:auto;
+  z-index: 1;
+}
+.header p{
+font-size: 4rem;
+font-family: 'The Nautigal', cursive;
+background-color: transparent;
+flex-basis: 50%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin:2rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+    border: .1rem solid;
+    text-align: justify;
+    align-items: center;
+background-color:gray;
+color: white;
+transition: .5s;
+
+}
+.card:hover{
+    box-shadow: 0.1rem 0.1rem 1rem black;
+    transform: scale(1.1);
+}
+.card-contain{
+    display: flex;
+    flex-direction:row;
+   flex-basis: 50%; 
+   justify-content: space-evenly;
+}
+.card-header h3{
+   font-size: 3rem; 
+color: white;
+margin-bottom: 2rem;
+}
+.card-desc p{
+    font-size: 1.8rem;
+}
+.card-btn{
+    border: 0;
+    background-color:white;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-top:1rem ;
+}
+
+/* archive design start from here */
+#archive-section{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    min-height: 95vh;
+    
+
+}
+.archives-container{
+    border: 0.1rem solid;
+    background-color: lightgoldenrodyellow;
+}
+.archives-header h2{
+    font-size: 5rem;
+    font-family: 'Poppins', cursive;
+    color: black;
+    margin-bottom: 1rem;
+}
+.archives-list{
+    
+    display: flex;
+}
+
+.archives-list li img{
+    width: 30rem;
+    height: 30rem;
+    margin: 0.2rem;
+    border: 0.1rem solid;
+}
+
+.archives-header{
+    
+    flex-basis: 50%;
+}
+.archives-container{
+    flex-basis: 50%;
+}
+
+/* archive design end from here */
+
+/* blog posts design start from here */
+
+.blog-posts{
+    width: 80%;
+    min-height: 95vh;
+    margin-top: 5rem;
+    margin: auto;
+    
+    
+}
+.blog-img{
+   width:30rem 
+
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.blog-div{
+    display: flex;
+
+    
+    flex-direction: column;
+}
+.blog-heading{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 5rem;
+    font-family: 'The Nautigal', cursive;
+}
+.blog-post{
+    margin-left: 5rem;
+    margin: 1rem;
+    display: flex;
+flex-direction:row;
+border: 1px solid black;
+width: 100%;
+height: 100%;
+
+}
+.content{
+    margin-left: 5rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+
+
+/* blog posts design end from here */
+/* contact design start from here */
+#Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.heading h1{
+    font-size: 4rem;
+    margin-bottom: 5rem;
+
+    font-family: 'The Nautigal', cursive;
+}
+#form-control{
+    display: flex;
+    
+    box-shadow: 0.1rem 0.1rem 0.1rem #fff5,-0.1rem 0 0.1rem #fff5;
+   padding: 2rem;
+}
+#form-control label{
+    flex:1;
+ margin-bottom: 1rem;
+font-size: 2rem;
+display: flex;
+flex-direction: column;
+}
+#form-control input{
+    flex:1;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding: 2rem;
+    display: flex;
+flex-direction: column;
+}
+
+/* contact design start from here */
+
+/* about me section end from here */
+/* header end from here */
+/* responsive start from here */
+@media (max-width:992px){
+#blog-banner{display: flex;
+    flex-direction: column;
+}
+.blog-img{
+    height: auto;
+}
+#blog-banner article{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-contain{display: flex;
+    flex-direction: row;
+}
+#bars{
+    display: none;
+ }
+
+.archives-list{
+    display: flex;
+    flex-direction: row;
+}
+.correct{
+    display: flex;
+    flex-direction:column;
+} 
+.form-control{
+    display: flex;
+    flex-direction:row;
+}
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    .archives-container{
+        border: none;
+    }
+    .archives-list li img{flex-direction: row;width: 100%;
+        align-items: center;}
+    
+    #bars{
+        display: none;
+     } 
+     .blog-img{
+        width: 100%; 
+     }
+
+    .blog-post{padding: 2rem;
+       flex-direction: column; 
+       align-items: center;
+    } 
+    .content{
+      text-align: justify;  
+    }
+    .sub-heading1{
+        font-size: 3rem;
+        color: brown;
+    }
+    .sub-heading2{
+        font-size: 2rem;
+    }
+
+    #form-control{
+        flex-direction:column;
+    }
+   
+}
+
+
+@media (max-width:600px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav li{
+        display: block;
+        margin-right: 0;
+        margin: 2rem 0;
+    }
+    #bars{
+        display: block;
+     }
+     .hidden{
+         display: none;
+     }
+    html{
+        font-size: 48.5%;
+    }
+
+    .card-contain{display: flex;
+        flex-direction:column;
+    }
+    .archives-list{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .correct{
+        display: flex;
+        flex-direction:column;
+    } 
+   
+  
+}
+
+@media (max-width:500px){
+    
+}
+
+/* responsive end from here */
